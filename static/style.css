@@ -1,0 +1,108 @@
+.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
+	max-width: 100% ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center ;
+}
+
+header {
+	text-align: center ;
+	padding-bottom: 15pt ;
+}
+
+header h1 {
+	font-size: 30pt ;
+	margin-bottom: 0 ;
+}
+
+header h2 {
+	margin-top: 0 ;
+	padding: .5em ;
+}
+
+h1 { color: #ccc ; }
+
+body {
+	font-family: sans-serif ;
+	background: #252626 ;
+	color: #ccc ;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+a {
+	color: #33bbff ;
+	text-decoration: none ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+time {
+	font-family: monospace ;
+}
+
+#tagcloud {
+	clear: both ;
+	padding: 0;
+	border-radius: 10px ;
+	text-align: center ;
+	margin: 0 auto ;
+	border: solid 1px ;
+	border-style: dashed ;
+	list-style: none ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	display: block ;
+	width: auto ;
+	border-radius: 10px ;
+	padding: .25em ;
+	margin: 2px ;
+}
+
+#tagcloud a:hover {
+	box-shadow: 2px 2px 2px 2px black  ;
+}
+
+#tag_home-lab:before { content: '🎛 ' ; }
+#tag_bitcoin:before { content: '(₿) ' ; }
+#tag_network:before { content: '📡 ' ; }
+#tag_virtualization:before { content: '🖥 ' ; }
+#tag_services:before { content: '⚙ ' ; }
+#tag_other:before { content: '🧰 ' ; }
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}

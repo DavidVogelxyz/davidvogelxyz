@@ -1,0 +1,5 @@
+<ul id=tagcloud>{{ range .Site.Pages }}{{ if .IsSection }}
+	<li><a href="{{ .Permalink }}" id="tag_{{ .File.ContentBaseName }}">{{ .Title }}</a></li>
+	{{- end }}
+	{{- end }}
+</ul>

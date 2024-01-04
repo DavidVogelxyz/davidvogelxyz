@@ -1,0 +1,6 @@
+baseURL = 'https://davidvogel.xyz/'
+languageCode = 'en-us'
+title = "David's Webpage"
+
+theme = 'lugo'
+favicon = 'favicon.ico'

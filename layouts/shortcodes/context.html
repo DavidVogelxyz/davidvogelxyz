@@ -1,0 +1,7 @@
+{{if lt .Page.Date (time "2023-01-01")}}
+<p>{{ range .Page.Ancestors.Reverse | first 2 | last 1 }}This post was written in 2023, looking back at my previous <a href="{{ .Permalink }}">home lab projects</a> and where my journey into IT began.</p>
+{{ end }}
+{{ end }}
+<p>{{ range .Page.Ancestors | first 1 }}This post is part of a series on <a href="{{ .Permalink }}" id="tag_{{ .File.ContentBaseName }}">{{ .LinkTitle }}</a>.</p>
+<hr>
+{{ end }}

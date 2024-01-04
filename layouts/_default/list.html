@@ -1,0 +1,10 @@
+{{ define "title" -}}
+<a href="/"><h1>{{ .Title | title }}</h1></a>
+{{- end }}
+{{ define "main" -}}
+{{ .Content }}
+<ul>
+{{- range.Pages }}
+{{- end }}
+</ul>
+{{- end }}
