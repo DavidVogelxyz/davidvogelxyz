@@ -14,7 +14,7 @@ Most people don't understand VPNs. This is mostly due to effective marketing by 
 
 The one and only utility that a VPN provides is the ability to relocate the point where one's local traffic becomes wider internet traffic. Put simply, VPN servers allows an individual to change their public IP address. Uses for this include remotely accessing private networks, such as a corporate or home network, or pretending to be somewhere else to get a different country's streaming service catalog. For this purpose, a VPN service with access to servers in different countries may have use.
 
-VPNs are claimed to be secure because of the **encryption** provided by the VPN tunell. Because traffic leaves the client computer and transits over to the "external local network" using an encrypted tunnel, the client's ISP no longer has "provider-level access" to the client data. But, that access doesn't go away -- the control is simply transferred over to the ISP of the VPN server. This is one big caveat to the marketing reads of the VPN service companies regarding security.
+VPNs are claimed to be secure because of the **encryption** provided by the VPN tunnel. Because traffic leaves the client computer and transits over to the "external local network" using an encrypted tunnel, the client's ISP no longer has "provider-level access" to the client data. But, that access doesn't go away -- the control is simply transferred over to the ISP of the VPN server. This is one big caveat to the marketing reads of the VPN service companies regarding security.
 
 With this in mind, in the spring of 2022, I used another Raspberry Pi to deploy an OpenVPN server. I was deploying the server simply to gain remote access to my home network using an encrypted connection. Nothing more, nothing less.
 
@@ -57,4 +57,3 @@ Thanks to those who got me here!
 - Mental Outlaw for his [video about creating an OpenVPN server](https://odysee.com/@AlphaNerd:8/how-to-create-your-own-vpn-(and-why)) ([YouTube link](https://www.youtube.com/watch?v=Lk_v6Q0YsNo))
 
 ## {{< youtube id="Lk_v6Q0YsNo" title="How to Create a VPN Server with Mental Outlaw" >}}
-
