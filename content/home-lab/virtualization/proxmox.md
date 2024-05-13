@@ -10,7 +10,7 @@ tags: ['home-lab','virtualization']
 
 # Type 1 Hypervisor, a VM Server, for free, in the cloud
 
-Soon after building my [custom DIY Desktop PC](/home-lab/desktop) and replacing my old PC, I watched a [video on YouTube](https://www.youtube.com/watch?v=_u8qTN3cCnQ) by NetworkChuck about Proxmox, a type of virtualization software that I could run as a server. Once I found out I could turn the old computer into a VM server, I knew immediately that I had to make it happen.
+Soon after building my [custom DIY Desktop PC](/home-lab/other/desktop) and replacing my old PC, I watched a [video on YouTube](https://www.youtube.com/watch?v=_u8qTN3cCnQ) by NetworkChuck about Proxmox, a type of virtualization software that I could run as a server. Once I found out I could turn the old computer into a VM server, I knew immediately that I had to make it happen.
 
 In March of 2023, I took the old pre-built computer I had purchased from NewEgg and upgraded nearly every single part of it. Where before I would severely limit how often I opened the comptuer's case for fear of breaking something, I now enjoyed completely breaking down the machine and rebuilding it as if it was from parts. When it finally booted up with all the upgrades installed, I was so excited - I couldn't wait to install Proxmox.
 
@@ -25,7 +25,7 @@ Since building the server, Proxmox has become an essential part of my home netwo
 - use it to play old software, like the occasional ISO I have from old video games I use to play on Windows 98 or Windows XP.
 - test out anything I want, like intentionally downloading old viruses onto a Windows XP machine.
     - And, I can do that all from within a safe environment where I can delete the VM the moment I'm done with it, and it doesn't harm any of my other machines.
-- do all of this without bloating my [main machine](/home-lab/desktop) with test VMs, or detracting from its [virtualization tasks](/home-lab/virtualization/qemu) by utilizing system resources for smaller VMs.
+- do all of this without bloating my [main machine](/home-lab/other/desktop) with test VMs, or detracting from its [virtualization tasks](/home-lab/virtualization/qemu) by utilizing system resources for smaller VMs.
 
 That's awesome.
 
@@ -47,7 +47,7 @@ That's awesome.
 	- More RAM to split between all the virtual machines
 - Storage: blah
 - GPU: NVIDIA GeForce -> AMD Radeon
-	- Technically a side-grade at best. I gave the NVIDIA card to my [desktop](/home-lab/desktop) for use with [QEMU](/home-lab/virtualization/qemu). However, I needed to passthrough a GPU, so I went and found the cheapest Chinese GPU I could find.
+	- Technically a side-grade at best. I gave the NVIDIA card to my [desktop](/home-lab/other/desktop) for use with [QEMU](/home-lab/virtualization/qemu). However, I needed to passthrough a GPU, so I went and found the cheapest Chinese GPU I could find.
 
 ### Software stack:
 
@@ -80,14 +80,14 @@ That's awesome.
 Here's how I would reinstall Proxmox if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
-    - [Installing Proxmox](https://github.com/DavidVogelxyz/library/blob/main/proxmox/install-proxmox.md)
-    - [GPU passthrough on Proxmox](https://github.com/DavidVogelxyz/library/blob/main/proxmox/proxmox-gpu-passthrough.md)
+    - [Installing Proxmox](https://github.com/DavidVogelxyz/library/blob/master/proxmox/install-proxmox.md)
+    - [GPU passthrough on Proxmox](https://github.com/DavidVogelxyz/library/blob/master/proxmox/proxmox-gpu-passthrough.md)
 
 Thanks to those who got me here!
 
 - [Proxmox documentation](https://pve.proxmox.com/wiki/PCI_Passthrough) on how to set up PCI (GPU) passthrough
-- [NetworkChuck Proxmox install video](https://www.youtube.com/watch?v=_u8qTN3cCnQ)
-- [TechnoTim 11 Things to Setup Proxmox video](https://www.youtube.com/watch?v=GoZaMgEgrHw)
+- [NetworkChuck - Proxmox install video](https://www.youtube.com/watch?v=_u8qTN3cCnQ)
+- [Techno Tim - 11 Things to Setup Proxmox video](https://www.youtube.com/watch?v=GoZaMgEgrHw)
 
 ## {{< youtube id="_u8qTN3cCnQ" title="Installing Proxmox with NetworkChuck" >}}
 

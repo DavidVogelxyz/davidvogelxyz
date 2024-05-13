@@ -17,7 +17,7 @@ This desktop PC, which I built from parts in February 2023, is ridiculously awes
 - Because it runs Artix Linux.
     - I had been running Ubuntu Desktop on my desktop PC since summer 2022, and I had tried Arch before. However, this was my first time using Arch as a daily driver.
     - LARBS!
-- Because I learned about [virtualization](/home-lab/virtualization).
+- Because I learned about [virtualization](/home-lab/virtualization/).
     - One of the reasons why I built this computer with the parts I chose was for virtualization. I had been having trouble playing certain games on Linux because I was using container solutions and emulators to run the games, and I had heard that virtualization through a software such as [QEMU](/home-lab/virtualization/qemu) could be a potential solution.
 - Because all of this gave me the tools to learn about [Proxmox virtualization](/home-lab/virtualization/proxmox).
     - While working with QEMU to set up virtual machines was useful in setting up a Proxmox server, so was building a PC. It gave me the skills to rebuild my old desktop PC and convert it into a Proxmox server.
@@ -57,7 +57,7 @@ I use LARBS, created by Luke Smith, as a desktop solution. Check out [LARBS on L
 
 One of the things I find most impressive about my desktop is not how much software it runs, but actually how *little* software it runs.
 
-I used [virtualization](/home-lab/virtualization) to solve some of those needs. With [QEMU](/home-lab/virtualization/qemu), I can spin up a Windows machine for any software I want to use that runs best on Microsoft software. No more Wine containers, or bottles; no more Lutris; and, no more having to stash a Windows computer for "just in case." In fact, the performance using QEMU is so good, that I even install any superfluous Linux software on a VM *first*, meaning that the amount of software I install on bare metal is very little.
+I used [virtualization](/home-lab/virtualization/) to solve some of those needs. With [QEMU](/home-lab/virtualization/qemu), I can spin up a Windows machine for any software I want to use that runs best on Microsoft software. No more Wine containers, or bottles; no more Lutris; and, no more having to stash a Windows computer for "just in case." In fact, the performance using QEMU is so good, that I even install any superfluous Linux software on a VM *first*, meaning that the amount of software I install on bare metal is very little.
 
 ---
 
@@ -66,9 +66,9 @@ I used [virtualization](/home-lab/virtualization) to solve some of those needs. 
 Here's how I would reinstall my current desktop if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
-    - [Installing Artix Linux](https://github.com/DavidVogelxyz/library/blob/main/install-os/install-arch.md)
-    - [Security Hardening on Artix Linux](https://github.com/DavidVogelxyz/library/blob/main/security/secure-arch.md)
-    - [Installing QEMU on Artix Linux]()
+    - [Installing Artix Linux](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-arch.md)
+    - [Security Hardening on Artix Linux](https://github.com/DavidVogelxyz/library/blob/master/security/secure-arch.md)
+    - [Installing QEMU on Artix Linux](https://github.com/DavidVogelxyz/library/blob/master/qemu/install-qemu-arch.md)
 - Download LARBS for the desktop
 
 Thanks to those who got me here!

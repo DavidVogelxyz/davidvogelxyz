@@ -10,7 +10,7 @@ tags: ['home-lab','virtualization']
 
 ## Everybody Loves Docker
 
-Since getting into virtualization, I have heard tons of people say many positive things about `Docker`. I created a Ubuntu VM in early 2023 when I first created my [Proxmox server](/home-lab/virtualization/proxmox), but I had only created one or two containers quickly. Now, I not only had an interest in learning about Docker, but a need to learn Docker: I wanted to host my [Hugo server]() using Docker, so I could work on my website before pushing it live.
+Since getting into virtualization, I have heard tons of people say many positive things about `Docker`. I created a Ubuntu VM in early 2023 when I first created my [Proxmox server](/home-lab/virtualization/proxmox), but I had only created one or two containers quickly. Now, I not only had an interest in learning about Docker, but a need to learn Docker: I wanted to host my [Hugo server](/home-lab/services/hugo) using Docker, so I could work on my website before pushing it live.
 
 Docker is incredibly lean. The VM I have Docker running on was given a small amount of CPU resources and only 4GB of RAM. Despite that, it has the ability to run tons of containers all at the same time. While I have been able to run certain containers in ways to push their resource use and max out the VM, it's not something that I've run into during standard server use.
 
@@ -47,7 +47,7 @@ I really, really like `Portainer`. It has made getting into Docker extremely eas
 Here’s how I would reinstall Docker and Portainer if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
-    - [Installing Docker and Portainer on Arch Linux](https://github.com/DavidVogelxyz/library/blob/main/install-docker-arch.md)
+    - [Installing Docker and Portainer on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/docker/install-docker-arch.md)
 - [NetworkChuck Portainer video](https://www.youtube.com/watch?v=iX0HbrfRyvc) on YouTube
 
 Thanks to those who got me here!

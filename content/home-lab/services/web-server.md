@@ -12,7 +12,7 @@ tags: ['home-lab','network']
 
 This website, [davidvogel.xyz](https://davidvogel.xyz), is a project that I created using Hugo and self-hosted using Vultr.
 
-After learning how to use Hugo from Luke Smith and his videos (more [here](/home-lab/other/hugo)), I was excited to create my own webpage to document my journey through the build-out of my home lab. Through the guidance of another of his videos, embedded below, I deployed a VPS on Vultr and bought a domain and built this website.
+After learning how to use Hugo from Luke Smith and his videos (more [here](/home-lab/services/hugo)), I was excited to create my own webpage to document my journey through the build-out of my home lab. Through the guidance of another of his videos, embedded below, I deployed a VPS on Vultr and bought a domain and built this website.
 
 At that time, there was only a handful of projects to document, so I got to work writing articles. Through this process, I not only became more comfortable with spinning up servers in the cloud, but I also learned how to do various things, such as:
 

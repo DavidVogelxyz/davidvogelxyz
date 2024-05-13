@@ -25,7 +25,7 @@ As I found out in 2023 when attempting to install MotionEyeOS into a Docker cont
 - Raspberry Pi 4, 8GB (camera)
 - Raspberry Pi Zero W (camera)
 
-I remember having one issue with the web UI related to adding cameras. I think the issue was not including "http://" in front of the camera's IP address.
+I remember having one issue with the web UI related to adding cameras. I think the issue was not including `http://` in front of the camera's IP address.
 
 ![MotionEye - Add Camera](/images/motioneye-add-camera.png)
 

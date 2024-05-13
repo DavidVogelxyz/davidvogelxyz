@@ -27,7 +27,7 @@ Because of my success with installing `QEMU` and getting the GPU passed through,
 QEMU
 
 - Type 2 hypervisor
-- Deployed using [Desktop](/home-lab/desktop)
+- Deployed using [Desktop](/home-lab/other/desktop)
 
 ![Desktop - Neofetch - QEMU](/images/desktop-with-qemu-windows.png "Desktop - Neofetch - QEMU")
 
@@ -40,8 +40,8 @@ QEMU
 Here's how I would reinstall QEMU on an Arch Linux machine if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
-    - [Installing QEMU on Arch Linux](https://github.com/DavidVogelxyz/library/blob/main/qemu/install-qemu-arch.md)
-    - [GPU passthrough on QEMU](https://github.com/DavidVogelxyz/library/blob/main/qemu/qemu-gpu-passthrough.md)
+    - [Installing QEMU on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/qemu/install-qemu-arch.md)
+    - [GPU passthrough on QEMU](https://github.com/DavidVogelxyz/library/blob/master/qemu/qemu-gpu-passthrough.md)
 
 Thanks to those who got me here!
 

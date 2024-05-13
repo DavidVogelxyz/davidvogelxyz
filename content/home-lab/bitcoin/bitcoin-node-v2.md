@@ -63,10 +63,9 @@ To address a potential discrepancy, Version 2.1 ran Ubuntu 20.04 LTS until sprin
 
 ## Fresh Install Bullet Points
 
-This version, and all of its subversions, have been retired in favor of a more recent version. Check [this page](/home-lab/bitcoin) for the most up-to-date version of the Bitcoin node stack.
+This version, and all of its subversions, have been retired in favor of a more recent version. Check [this page](/home-lab/bitcoin/) for the most up-to-date version of the Bitcoin node stack.
 
 Thanks to those who got me here!
 
 - Tj for his [guide to "Full Disk Encryption on Ubuntu"](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019)
 - Stadicus for his [Raspibolt guide series](https://raspibolt.org/)
-

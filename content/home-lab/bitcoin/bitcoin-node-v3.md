@@ -10,7 +10,7 @@ tags: ['home-lab','bitcoin']
 
 ## Leveling up my Bitcoin node even further
 
-By the end of 2022, I had been running the [Bitcoin Node Version 2.1](/home-lab/bitcoin/bitcoin-node-v2) for about a year. It had been running incredibly robustly since I brought it online, and especially after upgrading it to Ubuntu 22.04 LTS in May 2022. But, it also gave off a sense of staleness. I had thought about testing out some potential upgrades, and the end of the year provided the time. And, it was the perfect time, because it was just about the **two year anniversary** since I started running Ubuntu Linux servers.
+By the end of 2022, I had been running the [Bitcoin Node Version 2.1](/home-lab/bitcoin/bitcoin-node-v2#the-build) for about a year. It had been running incredibly robustly since I brought it online, and especially after upgrading it to Ubuntu 22.04 LTS in May 2022. But, it also gave off a sense of staleness. I had thought about testing out some potential upgrades, and the end of the year provided the time. And, it was the perfect time, because it was just about the **two year anniversary** since I started running Ubuntu Linux servers.
 
 I upgraded the Bitcoin node in a big way. I upgraded the hardware to a badass mini laptop meant for gaming; except, instead, I threw a 1TB SSD inside and made it into a portable powerhouse. I also moved away from Ubuntu, right past Debian, and installed Arch Linux. Why not? Then, on top of Arch, I installed a more powerful indexer, Fulcrum, that was going to make my Mempool explorer quicker and my wallet sync even faster. Finally, I added a web UI dashboard, so I can keep track of my home lab web links for later.
 
@@ -43,7 +43,7 @@ Some key notes about upgrading to Version 3.0:
 1. Ubuntu has a user named 'www-data'; on Arch, this user is named 'http'. In addition, the Arch directory is located at '/srv/http', rather than whatever Ubuntu is. This took me a while to figure out, and I was not able to get Mempool nor NGINX working until I did.
 1. Some of the directories for NGINX needs to be manually added. Not sure why, but a quick `mkdir` fixes this.
 1. Some of the package names are different.
-1. Installing MariaDB has additional steps. See [this link]().
+1. Installing MariaDB has additional steps.
 1. In addition, when installing Mempool, certain files need to be redirected to point to the right direction or use the right user.
 
 While it runs `systemd` just like the Version 2 era Ubuntu servers, it boots incredibly fast. I believe it has something to do with how the full disk encryption was set up, because the Version 2 Ubuntu servers all boot much slower than the Version 3 Arch servers.
@@ -59,8 +59,8 @@ Fulcrum was also a massive success at speeding up the wallet lookups. Everything
 Here’s how I would rebuild my Bitcoin node if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
-    - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/main/install-os/install-arch.md)
-    - [Security Hardening on Arch Linux](https://github.com/DavidVogelxyz/library/blob/main/security/secure-arch.md)
+    - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-arch.md)
+    - [Security Hardening on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/security/secure-arch.md)
     - Arch Bitcoin Core installer
     - Arch additional Bitcoin software installers
 

@@ -21,7 +21,7 @@ If I'm not using my home network, I'm using someone else's network. Now that I h
 
 An added benefit to this "everywhere-I-go" home network access is that the VPN tunnel protects my traffic from a potentially compromised network connection. Whether it's rogue users or a rogue network administrator, using other networks confers a level of risk that the traffic sent over the network will be sniffed. Even with HTTPS and SSL, there's tons of metadata that can be gathered from any traffic going over the network. If the traffic is instead being routed through an encrypted tunnel until it reaches the VPN server, it would be entirely unreadable. So, the travel router adds a security benefit as well.
 
-Another plus of the travel router is its convenience. Normally, any device that wanted to connect to the VPN would need VPN software and a configuration file. Instead of needing to do that, I simply connect the device to a specific wireless network hosted by the travel router, and the device is automatically connected to the internet through the VPN. The travel router is also configured to have a "VPN kill switch," so that the router cuts the internet anytime the VPN connection is lost. This ensures that any traffic leaving the router is on its way to the home OpenVPN server) and, therefore, encrypted. 
+Another plus of the travel router is its convenience. Normally, any device that wanted to connect to the VPN would need VPN software and a configuration file. Instead of needing to do that, I simply connect the device to a specific wireless network hosted by the travel router, and the device is automatically connected to the internet through the VPN. The travel router is also configured to have a "VPN kill switch," so that the router cuts the internet anytime the VPN connection is lost. This ensures that any traffic leaving the router is on its way to the home OpenVPN server) and, therefore, encrypted.
 
 Yet another benefit to building the travel routers was that I was actively pursuing my CompTIA Network+ certification at the time, and the travel routers were a practical home lab project for someone studying for a networking exam. While I followed guides for most of the initial setup, I had a strong understanding of what I was doing because I was solidifying the material I was learning for my certification.
 
@@ -54,7 +54,7 @@ As is posted on my GitHub, my particular pair of antenna and driver no longer in
 Here’s how I would rebuild my travel router if I needed to:
 
 - Go to my personal GitHub and reference my guide on:
-    - [Setting up travel routers](https://github.com/DavidVogelxyz/library/blob/main/install-os/install-openwrt-travelrouter.md)
+    - [Setting up travel routers](https://github.com/DavidVogelxyz/library/blob/master/network/install-openwrt-travelrouter.md)
 
 To give credit to those who got me here:
 

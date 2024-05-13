@@ -6,7 +6,7 @@ title: "David's Webpage"
 
 ## Welcome!
 
-![Home Lab](/images/home-lab.gif)
+![Home Lab start](/images/home-lab-startup.gif)
 
 This webpage is a portfolio of different home lab projects I've completed over the past years. Enjoy your visit!
 

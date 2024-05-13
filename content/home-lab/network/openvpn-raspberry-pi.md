@@ -46,9 +46,11 @@ Here’s how I would rebuild my VPN server if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
     - Operating system
-        - [Installing Debian](https://github.com/DavidVogelxyz/library/blob/main/install-os/install-debian.md)
-        - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/main/install-os/install-arch.md)
-    - [Security Hardening on Artix Linux](https://github.com/DavidVogelxyz/library/blob/main/security/secure-arch.md)
+        - [Installing Debian](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-debian.md)
+        - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-arch.md)
+    - Security hardening
+        - [Security Hardening on Debian](https://github.com/DavidVogelxyz/library/blob/master/security/secure-debian.md)
+        - [Security Hardening on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/security/secure-arch.md)
 - Use [Angristan's script](https://github.com/angristan/openvpn-install) to build the VPN server and configuration file
 
 Thanks to those who got me here!

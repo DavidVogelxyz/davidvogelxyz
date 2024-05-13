@@ -50,7 +50,7 @@ The Protectli router that I have doesn't have a bunch of LAN connections in the 
 
 ### Firewall
 
-pfSense makes it easy to set firewall rules on a per interface basis. That meant firewall rules for LAN, OPT1, their bridge, and any VLANs I created (and any bridges they needed). While that felt like a lot of work, my solution was building a spreadsheet of rules and working from there. The table allowed me visual clarity into the differences between the VLANs, based on their firewall rules. Then, I copied over to all of them the default *block* and *allow ping* rules. Soon enough, I had a complete set of firewall rules for all of my VLANs and other network interfaces. Then, all I had to do was test them. 
+pfSense makes it easy to set firewall rules on a per interface basis. That meant firewall rules for LAN, OPT1, their bridge, and any VLANs I created (and any bridges they needed). While that felt like a lot of work, my solution was building a spreadsheet of rules and working from there. The table allowed me visual clarity into the differences between the VLANs, based on their firewall rules. Then, I copied over to all of them the default *block* and *allow ping* rules. Soon enough, I had a complete set of firewall rules for all of my VLANs and other network interfaces. Then, all I had to do was test them.
 
 ### VLANs
 
