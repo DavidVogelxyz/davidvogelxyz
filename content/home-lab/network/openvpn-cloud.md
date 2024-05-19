@@ -41,13 +41,15 @@ The only thing of note was `nala`. It was around this time that I learned of `na
 Here’s how I would rebuild my VPN server if I needed to:
 
 - Go to my personal GitHub and reference my guide on:
-    - [Security Hardening on Debian](https://github.com/DavidVogelxyz/library/blob/master/security/secure-debian.md)
-- Use [Angristan's script](https://github.com/angristan/openvpn-install) to build the VPN server and configuration file
+    - [Installing OpenVPN server](https://github.com/DavidVogelxyz/library/blob/master/network/install-openvpn-server.md)
 
 Thanks to those who got me here!
 
 - Angristan for his [script](https://github.com/angristan/openvpn-install)
 - Mental Outlaw for his [video about creating an OpenVPN server](https://odysee.com/@AlphaNerd:8/how-to-create-your-own-vpn-(and-why)) ([YouTube link](https://www.youtube.com/watch?v=Lk_v6Q0YsNo))
 
-## {{< youtube id="Lk_v6Q0YsNo" title="How to Create a VPN Server with Mental Outlaw" >}}
+---
 
+## Helpful Videos
+
+## {{< youtube id="Lk_v6Q0YsNo" title="How to Create a VPN Server with Mental Outlaw" >}}

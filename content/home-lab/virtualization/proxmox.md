@@ -85,11 +85,14 @@ Here's how I would reinstall Proxmox if I needed to:
 
 Thanks to those who got me here!
 
-- [Proxmox documentation](https://pve.proxmox.com/wiki/PCI_Passthrough) on how to set up PCI (GPU) passthrough
 - [NetworkChuck - Proxmox install video](https://www.youtube.com/watch?v=_u8qTN3cCnQ)
 - [Techno Tim - 11 Things to Setup Proxmox video](https://www.youtube.com/watch?v=GoZaMgEgrHw)
+- [Proxmox documentation](https://pve.proxmox.com/wiki/PCI_Passthrough) on how to set up PCI (GPU) passthrough
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="_u8qTN3cCnQ" title="Installing Proxmox with NetworkChuck" >}}
 
 ## {{< youtube id="GoZaMgEgrHw" title="First 11 Things on Proxmox with TechnoTim" >}}
-

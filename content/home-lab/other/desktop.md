@@ -75,15 +75,19 @@ Thanks to those who got me here!
 
 - Building a PC
     - Linus Tech Tips
-        - [Video 1 POV](https://www.youtube.com/watch?v=v7MYOpFONCU)
-        - [Video 2 comprehensive](https://www.youtube.com/watch?v=BL4DCEp7blY)
+        - [Video 1 - POV](https://www.youtube.com/watch?v=v7MYOpFONCU)
+        - [Video 2 - comprehensive](https://www.youtube.com/watch?v=BL4DCEp7blY)
 - Installing Artix Linux
-    - This [guide by Luke Smith](https://videos.lukesmith.xyz/w/n1cMQYYzwPoegM2oXfz2iC) ([YouTube link](https://www.youtube.com/watch?v=dI3bGeT31Bo))
+    - this [video guide](https://videos.lukesmith.xyz/w/n1cMQYYzwPoegM2oXfz2iC) by Luke Smith ([YouTube link](https://www.youtube.com/watch?v=dI3bGeT31Bo))
     - The [Artix wiki](https://wiki.artixlinux.org)
     - The [Arch wiki](https://wiki.archlinux.org)
 - Learning Artix Linux
     - [VimTutor with Vim Diesel](https://www.youtube.com/watch?v=d8XtNXutVto)
-    - [Using LARBS]()
+    - Using LARBS
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="v7MYOpFONCU" title="Build Computer Video #1" >}}
 
@@ -92,4 +96,3 @@ Thanks to those who got me here!
 ## {{< youtube id="dI3bGeT31Bo" title="Install Artix Linux with Luke Smith" >}}
 
 ## {{< youtube id="d8XtNXutVto" title="VimTutor with Vim Diesel" >}}
-

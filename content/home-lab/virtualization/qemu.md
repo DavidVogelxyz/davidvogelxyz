@@ -45,11 +45,14 @@ Here's how I would reinstall QEMU on an Arch Linux machine if I needed to:
 
 Thanks to those who got me here!
 
-- [Arch Linux wiki](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) article on PCI passthrough
 - Mental Outlaw [QEMU install video](https://www.youtube.com/watch?v=wxxP39cNJOs)
 - Mental Outlaw [GPU pass-through video](https://www.youtube.com/watch?v=KVDUs019IB8)
+- [Arch Linux wiki](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF) article on PCI passthrough
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="wxxP39cNJOs" title="Installing QEMU with Mental Outlaw" >}}
 
 ## {{< youtube id="KVDUs019IB8" title="GPU pass-through with Mental Outlaw" >}}
-

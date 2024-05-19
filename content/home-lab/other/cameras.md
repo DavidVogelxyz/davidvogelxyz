@@ -44,5 +44,8 @@ Thanks to those who got me here!
 
 - Tom from Lawrence Systems on Youtube for [verification re adding cameras](https://www.youtube.com/watch?v=og-zI0CozLs&t=730s).
 
-## {{< youtube id="og-zI0CozLs?start=730" title="Raspberry Pi Motion Detection Surveillance Camera System using MotionEyeOS" >}}
+---
 
+## Helpful Videos
+
+## {{< youtube id="og-zI0CozLs?start=730" title="Raspberry Pi Motion Detection Surveillance Camera System using MotionEyeOS" >}}

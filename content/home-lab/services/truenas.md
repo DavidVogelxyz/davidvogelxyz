@@ -56,7 +56,10 @@ Here’s how I would reinstall TrueNAS if I needed to:
 
 Thanks to those who got me here!
 
+---
+
+## Helpful Videos
+
 ## {{< youtube id="u9qPZQczuPI" title="Upgrade RAM with ASUSTOR" >}}
 
 ## {{< youtube id="q5y9BDkwHmQ" title="Installing TrueNAS Scale with NASCompares" >}}
-

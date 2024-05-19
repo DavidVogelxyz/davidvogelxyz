@@ -61,16 +61,16 @@ Here’s how I would rebuild my Bitcoin node if I needed to:
 - Go to my personal GitHub and reference my guides on:
     - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-arch.md)
     - [Security Hardening on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/security/secure-arch.md)
-    - Arch Bitcoin Core installer
-    - Arch additional Bitcoin software installers
 
 Thanks to those who got me here!
 
 - Stadicus again for his [Raspibolt guide series](https://raspibolt.org/)
 - I learned how to install Arch (and Artix) Linux with assistance from:
     - the [Arch wiki](https://wiki.archlinux.org)
-    - this [video guide](https://videos.lukesmith.xyz/w/n1cMQYYzwPoegM2oXfz2iC) by Luke Smith
-        - Alternative [YouTube video](https://www.youtube.com/watch?v=dI3bGeT31Bo) is embedded below
+    - this [video guide](https://videos.lukesmith.xyz/w/n1cMQYYzwPoegM2oXfz2iC) by Luke Smith ([YouTube link](https://www.youtube.com/watch?v=dI3bGeT31Bo))
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="dI3bGeT31Bo" title="Installing Arch Linux with Luke Smith" >}}
-

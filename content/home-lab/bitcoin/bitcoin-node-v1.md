@@ -61,11 +61,13 @@ So, for [Version 2](/home-lab/bitcoin/bitcoin-node-v2), I decided to go complete
 
 This version, and all of its subversions, have been retired in favor of a more recent version. Check [this page](/home-lab/bitcoin/) for the most up-to-date version of the Bitcoin node stack.
 
-
 Thanks to those who got me here!
 
 - [This forum post](https://askubuntu.com/questions/1287837/luks-disk-encryption-on-raspberry-pi-4-and-ubuntu-desktop-20-10) for explaining how to do full disk encryption on a Raspberry Pi
 - [Ketan](https://k3tan.com) & Ministry of Nodes for [this YouTube playlist](https://www.youtube.com/playlist?list=PLCRbH-IWlcW290O0N0lQV6efxuCA5Ja8c)
 
-## {{< youtube id="gT1izYKvhBw?list=PLCRbH-IWlcW290O0N0lQV6efxuCA5Ja8c" title="Node Box Guide by Ministry of Nodes" >}}
+---
 
+## Helpful Videos
+
+## {{< youtube id="gT1izYKvhBw?list=PLCRbH-IWlcW290O0N0lQV6efxuCA5Ja8c" title="Node Box Guide by Ministry of Nodes" >}}

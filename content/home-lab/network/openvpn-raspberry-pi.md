@@ -44,18 +44,16 @@ It is also worth noting that current Debian systems seems to work fine as well -
 
 Here’s how I would rebuild my VPN server if I needed to:
 
-- Go to my personal GitHub and reference my guides on:
-    - Operating system
-        - [Installing Debian](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-debian.md)
-        - [Installing Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/install-os/install-arch.md)
-    - Security hardening
-        - [Security Hardening on Debian](https://github.com/DavidVogelxyz/library/blob/master/security/secure-debian.md)
-        - [Security Hardening on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/security/secure-arch.md)
-- Use [Angristan's script](https://github.com/angristan/openvpn-install) to build the VPN server and configuration file
+- Go to my personal GitHub and reference my guide on:
+    - [Installing OpenVPN server](https://github.com/DavidVogelxyz/library/blob/master/network/install-openvpn-server.md)
 
 Thanks to those who got me here!
 
 - Angristan for his [script](https://github.com/angristan/openvpn-install)
 - Mental Outlaw for his [video about creating an OpenVPN server](https://odysee.com/@AlphaNerd:8/how-to-create-your-own-vpn-(and-why)) ([YouTube link](https://www.youtube.com/watch?v=Lk_v6Q0YsNo))
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="Lk_v6Q0YsNo" title="How to Create a VPN Server with Mental Outlaw" >}}

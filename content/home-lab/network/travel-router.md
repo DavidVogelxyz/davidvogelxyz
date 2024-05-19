@@ -58,8 +58,11 @@ Here’s how I would rebuild my travel router if I needed to:
 
 To give credit to those who got me here:
 
-- [OpenWrt guide to OpenVPN client using LuCI](https://openwrt.org/docs/guide-user/services/vpn/openvpn/client-luci) specifically for help with the VPN kill-switch
 - [NetworkChuck Raspberry Pi Travel Router video](https://www.youtube.com/watch?v=jlHWnKVpygw)
+- [OpenWrt guide to OpenVPN client using LuCI](https://openwrt.org/docs/guide-user/services/vpn/openvpn/client-luci) specifically for help with the VPN kill-switch
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="jlHWnKVpygw" title="NetworkChuck Raspberry Pi Travel Router video" >}}
-

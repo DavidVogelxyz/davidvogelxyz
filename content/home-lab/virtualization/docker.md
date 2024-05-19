@@ -48,13 +48,16 @@ Here’s how I would reinstall Docker and Portainer if I needed to:
 
 - Go to my personal GitHub and reference my guides on:
     - [Installing Docker and Portainer on Arch Linux](https://github.com/DavidVogelxyz/library/blob/master/docker/install-docker-arch.md)
-- [NetworkChuck Portainer video](https://www.youtube.com/watch?v=iX0HbrfRyvc) on YouTube
 
 Thanks to those who got me here!
 
+- [NetworkChuck Portainer video](https://www.youtube.com/watch?v=iX0HbrfRyvc) on YouTube
 - [NetworkChuck Docker playlist](https://www.youtube.com/playlist?list=PLIhvC56v63IJlnU4k60d0oFIrsbXEivQo) on YouTube
+
+---
+
+## Helpful Videos
 
 ## {{< youtube id="iX0HbrfRyvc" title="Installing Portainer with NetworkChuck" >}}
 
 ## {{< youtube id="eGz9DS-aIeY?list=PLIhvC56v63IJlnU4k60d0oFIrsbXEivQo" title="Docker playlist with NetworkChuck" >}}
-

@@ -75,7 +75,10 @@ There was also the small thing with bridging VLANs in order to get VLAN traffic 
 - [YouTube video](https://www.youtube.com/watch?v=5ohLAFHnOHg&t=855) from Tom Lawrence at Lawrence Systems on YouTube describing how to tag the VLANs correctly on TP-Link switches
 - [YouTube video](https://www.youtube.com/watch?v=I61t7aoGC2Q) from Tom at Lawrence Systems about OpenVPN on pfSense
 
+---
+
+## Helpful Videos
+
 ## {{< youtube id="5ohLAFHnOHg?start=855" title="Tagging VLANs correctly on TP-Link switches with Lawrence Systems" >}}
 
 ## {{< youtube id="I61t7aoGC2Q" title="OpenVPN on pfSense with Lawrence Systems" >}}
-
