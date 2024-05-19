@@ -9,7 +9,7 @@ title: "Bitcoin Nodes"
 ## Context
 
 Bitcoin node
-: A server that runs the [*Bitcoin Core*](https://github.com/bitcoin/bitcoin) software and verifies transactions. 
+: A server that runs the [*Bitcoin Core*](https://github.com/bitcoin/bitcoin) software and verifies transactions.
 
 The reason to run a Bitcoin node is simple: when using Bitcoin, when dealing with money, how does one trust the servers that are communicating with the wallet (account) software? The server administrator is always going to have an idea of who's pinging from where, and metadata leaks a ton about transaction details. The solution is simple: self-host the server. The solution is running a Bitcoin node.
 
@@ -30,4 +30,3 @@ I also share a story where I was the first to [brute force a Bitcoin wallet](/ho
 ---
 
 {{< articles-section >}}
-

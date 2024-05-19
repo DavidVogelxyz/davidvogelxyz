@@ -15,4 +15,3 @@ After learning about QEMU and type 2 hypervisors, I had to find out more about t
 ---
 
 {{< articles-section >}}
-

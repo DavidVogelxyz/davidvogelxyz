@@ -15,4 +15,3 @@ I received my CompTIA Security+ in April 2023. I then set my sights on the CompT
 ---
 
 {{< articles-section >}}
-

@@ -9,4 +9,3 @@ This section includes all the home lab projects that didn't fit the other catego
 ---
 
 {{< articles-section >}}
-

@@ -1,7 +1,15 @@
 {{if lt .Page.Date (time "2023-01-01")}}
-<p>{{ range .Page.Ancestors.Reverse | first 2 | last 1 }}This post was written in 2023, looking back at my previous <a href="{{ .Permalink }}">home lab projects</a> and where my journey into IT began.</p>
+<p>{{ range .Page.Ancestors.Reverse | first 2 | last 1 }}This article was written in 2023, looking back at my previous <a href="{{ .Permalink }}">home lab projects</a> and where my journey into IT began.</p>
 {{ end }}
 {{ end }}
-<p>{{ range .Page.Ancestors | first 1 }}This post is part of a series on <a href="{{ .Permalink }}" id="tag_{{ .File.ContentBaseName }}">{{ .LinkTitle }}</a>.</p>
+
+{{if lt .Page.Date (time "2024-01-01")}}
+{{if gt .Page.Date (time "2023-06-13")}}
+<p>{{ range .Page.Ancestors.Reverse | first 2 | last 1 }}This article was written in 2024, looking back at my previous <a href="{{ .Permalink }}">home lab projects</a> and where my journey into IT began.</p>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<p>{{ range .Page.Ancestors | first 1 }}This article is part of a series on <a href="{{ .Permalink }}" id="tag_{{ .File.ContentBaseName }}">{{ .LinkTitle }}</a>.</p>
 <hr>
 {{ end }}
