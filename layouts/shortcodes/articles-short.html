@@ -1,6 +1,6 @@
 <h2 id="articles">Articles</h2>
 <ul>{{ range .Site.RegularPages | first 10 }}
-	<time datetime="{{ .Date.Format "2006 Jan 02" }}">{{ .Date.Format "2006 Jan 02" }}</time> - <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-	{{- end }}
-	<i>View all <a href="/home-lab/#articles">📜 articles and posts</a>.</i>
+    <time datetime="{{ .Date.Format "2006 Jan 02" }}">{{ .Date.Format "2006 Jan 02" }}</time> - <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+    {{- end }}
+    <i>View all <a href="/home-lab/#articles">📜 articles and posts</a>.</i>
 </ul>
