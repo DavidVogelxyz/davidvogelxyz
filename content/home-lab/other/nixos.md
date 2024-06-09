@@ -16,7 +16,7 @@ However, this all changed when I found out about NixOS, thanks primarily to Chri
 
 NixOS is a Linux distribution that is more than just its eponymous package manager, Nix. It is an Linux distribution that focuses on state-based configurations, using an immutable design and declarative configuration. In more simple words, it was an operating system that allowed the user to configure the system using one configuration file, and this file would allow a user to deploy a fresh install of NixOS and have a perfect reproduction of another system. This is incredibly cool, and has many utilities when it comes to deploying multiple identical Linux machines.
 
-Specifically, I saw a [Chris Titus video from mid-June 2023](https://www.youtube.com/watch?v=fuWPuJZ9NcU) that discussed the utility of NixOS in a corporate environment, because of Nix's state-based configurations. The last time I had heard that ([Proxmox](/home-lab/virtualization/proxmox)), I jumped on the opportunity to learn and benefitted greatly. Would NixOS be another Proxmox in terms of the value I would derive from it?
+Specifically, I saw a [Chris Titus video from mid-June 2023](https://www.youtube.com/watch?v=fuWPuJZ9NcU) that discussed the utility of NixOS in a corporate environment, because of Nix's state-based configurations. The last time I had heard someone say that (re: [Proxmox](/home-lab/virtualization/proxmox)), I jumped on the opportunity to learn and benefitted greatly. Would NixOS be another Proxmox in terms of the value I would derive from it?
 
 I had to find out.
 
@@ -28,9 +28,9 @@ One thing I will note is that this was one of the first instances where I began 
 
 Didn't like something that I did? Changing a line broke my system? I could just roll back the changes to a previous commit and keep going as if nothing had happened. This was very useful, and I was only beginning to scratch the surface of that utility.
 
-### The Inception of DWM install scripts
+### The Inception of DWM Install Scripts
 
-Another note worth mentioning is that, between spinning up a bunch of Debian VMs on my local Proxmox, and now creating a NixOS VM, I was hitting a phase where I was getting tired of doing "the same work over and over again."
+Another note worth mentioning is that, between spinning up a bunch of Debian VMs on my local [Proxmox](/home-lab/virtualization/proxmox), and now creating a NixOS VM, I was hitting a phase where I was getting tired of doing "the same work over and over again."
 
 Because of my appreciation for how efficiently I was using LARBS on my [desktop](/home-lab/other/desktop), I figured out how to get `dwm` working on Debian, as well as on this NixOS VM, and I wanted to make future deployments simple and quick. So, in combination with beginning to learn about and appreciate `git`, I started working on scripts that I could use to quickly install `dwm` to VMs, without having to manually enter commands. While those adventures will be detailed in a future article, I was beginning to write those preliminary scripts in late July and early August of 2023, and was using them in conjunction with my "configuration.nix" file. This allowed me to use a NixOS VM, test out some new features, tear it down, and then use both my "configuration.nix" file and my `dwm` scripts in order to get everything back in working order. While I could have improved the reproducibility of my NixOS experience by using `home-manager`, I was beginning to get more proficient with different Linux distributions and learning how to troubleshoot issues that would arise.
 
@@ -41,6 +41,8 @@ My initial attempts at NixOS, and specifically getting `dwm` and `dwmblocks` wor
 While I was able to get `dwm` working rather quickly, I spent a decent amount of time attempting to get `dwmblocks` to display correctly. Even when I did, I had a lot of trouble getting the bar's objects to be clickable. I'm writing this article after the fact (and after having deleted my NixOS VM in favor of a fresh start), but I don't recall ever getting the bar to work as it does on Arch and Debian.
 
 Another piece that required many iterations was getting an optimized "configuration.nix" file. Back during the summer of 2023, my coding and scripting skills were minimal. I could parse a NixOS configuration file, but I ran into some issues while writing my own. Piecing together a working config file required trial and error, and I redeployed the NixOS VM a handful of times as I figured out what worked and what didn't.
+
+The only reason why I didn't continue further with NixOS was because I set my sights on a new target: [learning penetration testing with HackTheBox](/home-lab/other/hackthebox).
 
 ---
 

@@ -22,9 +22,9 @@ With this in mind, I found a couple of tutorial videos by Luke Smith (embedded b
 
 One of the perks of Hugo that I really like is its ability to host a Hugo server on a local machine, and being able to access to a live preview of the website. While there are other ways to implement a Markdown previewer, such as a Neovim plugin, having a live test webserver meant that I could make an edit to an article, and immediately see the rendered output before committing any changes. This is incredibly useful, as it allows me to make sure that everything on the site, including hotlinks, are linking correctly before I push any articles to the live webserver.
 
-To make life easier, I set up a VM on my Proxmox for hosting Hugo servers. One particular trick that I implemented was creating a systemd service that would initialize the Hugo server on startup. Beyond the benefit of the server automatically coming online anytime the VM was booted up, setting up systemd services also allowed me to host numerous Hugo servers at the same time by changing the port. This allowed me to work on multiple different website projects at any given time, with all of the startup automated. Very convenient!
+To make life easier, I set up a VM on my [Proxmox](/home-lab/virtualization/proxmox) for hosting Hugo servers. One particular trick that I implemented was creating a systemd service that would initialize the Hugo server on startup. Beyond the benefit of the server automatically coming online anytime the VM was booted up, setting up systemd services also allowed me to host numerous Hugo servers at the same time by changing the port. This allowed me to work on multiple different website projects at any given time, with all of the startup automated. Very convenient!
 
-With my first web page created in Hugo, the next step was to self-host it.
+With my first web page created in Hugo, the next step was to [self-host it](/home-lab/services/web-server).
 
 ---
 

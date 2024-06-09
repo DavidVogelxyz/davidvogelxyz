@@ -26,7 +26,7 @@ During early summer of 2023, I created articles for all of the projects that I h
 
 However, I wasn't satisfied with just a webpage. As Luke demonstrates in the video, it was also possible to set up a hosted mail server, such that I could have an e-mail account with my own personal site. I used the installation script that he built to do this too (and had to get permission from Vultr to open the SMTP ports for my server), but I was able to get that working too.
 
-The more I worked on projects like this, the more I was developing a passion for Linux, and self-hosted servers, and free and open-source software.
+The more I worked on projects like this, the more I was developing a passion for Linux, and self-hosted servers, and free and open-source software. I wanted to complete even more projects, which is why I quickly jumped into the next one: deploying an instance of [Nextcloud cloud storage](/home-lab/services/nextcloud-docker).
 
 ---
 
