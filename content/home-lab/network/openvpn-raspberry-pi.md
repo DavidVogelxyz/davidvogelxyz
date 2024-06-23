@@ -8,7 +8,13 @@ tags: ['home-lab','network']
 
 ![OpenVPN banner](/images/openvpn-banner.png)
 
-## VPNs done right
+## Introduction
+
+For more information on how I would set up a VPN server today, check out [my guide on creating a VPN server](https://github.com/DavidVogelxyz/library/blob/master/servers/openvpn-server-on-debian.md), found on my GitHub.
+
+---
+
+## VPNs Done Right
 
 Most people don't understand VPNs. This is mostly due to effective marketing by companies selling VPN services. People believe VPNs are far more than they actually are. But, VPN still have utility, if applied correctly.
 

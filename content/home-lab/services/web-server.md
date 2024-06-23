@@ -8,6 +8,12 @@ tags: ['home-lab','network']
 
 ![Vultr banner](/images/vultr-banner.png)
 
+## Introduction
+
+For more information on how I would set up a web and SMTP server today, check out [my guide on creating a web and SMTP server](https://github.com/DavidVogelxyz/library/blob/master/servers/smtp-server-on-debian.md), found on my GitHub.
+
+---
+
 ## My first web page
 
 This website, [davidvogel.xyz](https://davidvogel.xyz), is a project that I created using Hugo and self-hosted using Vultr.

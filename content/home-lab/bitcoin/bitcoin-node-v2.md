@@ -6,7 +6,13 @@ tags: ['home-lab','bitcoin']
 
 {{< context >}}
 
-## Going down the rabbit hole of headless servers
+## Introduction
+
+This article describes an outdated way to build a Bitcoin node. For more information on how I would set up a Bitcoin node today, check out [my guide on creating a Bitcoin node](https://github.com/DavidVogelxyz/library/blob/master/servers/bitcoin-node-on-debian.md), found on my GitHub.
+
+---
+
+## Going Down the Rabbit Hole of Headless Servers
 
 My first home lab project was about to level up in a big way.
 

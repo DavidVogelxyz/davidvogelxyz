@@ -8,9 +8,11 @@ tags: ['home-lab','other']
 
 ![Neovim banner](/images/neovim-banner.png)
 
-## Introductory Notes
+## Introduction
 
 This article tells the story of how I wrote my own [Neovim configuration](https://github.com/davidvogelxyz/nvim) from scratch -- this project can be accessed by following the link to my GitHub.
+
+---
 
 ## "You Can Go Your Own Way"
 

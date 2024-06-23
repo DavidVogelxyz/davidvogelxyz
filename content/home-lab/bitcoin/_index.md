@@ -17,7 +17,7 @@ A *bare minimum* expectation for a Bitcoin node is to be a reference server for 
 
 ---
 
-In this section, I walk through the different iterations of Bitcoin nodes I've run.
+In this section, I walk through the different iterations of Bitcoin nodes I've run. For more information on how I would set up a Bitcoin node today, check out [my guide on creating a Bitcoin node](https://github.com/DavidVogelxyz/library/blob/master/servers/bitcoin-node-on-debian.md), found on my GitHub.
 
 1. [Bitcoin Node Version 1](/home-lab/bitcoin/bitcoin-node-v1) includes all of my first nodes, which were also my first ever [home lab projects](/home-lab). The first iteration was a Windows computer running *Bitcoin Core*, followed by a Ubuntu Desktop instance running Bitcoin alongside a blockchain explorer (btc-rpc-explorer). The final update to the Version 1 era was to put the node stack onto a Raspberry Pi.
 

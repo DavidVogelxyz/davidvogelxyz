@@ -8,6 +8,12 @@ tags: ['home-lab','network']
 
 ![AWS banner](/images/aws-banner.png)
 
+## Introduction
+
+For more information on how I would set up a VPN server today, check out [my guide on creating a VPN server](https://github.com/DavidVogelxyz/library/blob/master/servers/openvpn-server-on-debian.md), found on my GitHub.
+
+---
+
 ## Welcome to the Jungle
 
 While I have been working with cloud service providers (CSP) for months, I hadn't yet tried out Amazon Web Services (AWS). I decided to re-deploy a project that I'm familiar with, OpenVPN, because I thought it would be easy. "Easy" is not how I would describe my experience with AWS.

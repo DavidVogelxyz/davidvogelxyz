@@ -8,9 +8,11 @@ tags: ['home-lab','other']
 
 ![LARBS banner](/images/larbs-banner.png)
 
-## Introductory Notes
+## Introduction
 
 This article tells the story of how I created my first true Git project, [`debian-dwm`](https://github.com/davidvogelxyz/debian-dwm) -- this project can be accessed by following the link to my GitHub. If you want to learn more about how I install Debian onto new computers and VMs prior to using `debian-dwm`, check out [my guide on installing Debian](https://github.com/davidvogelxyz/library/blob/master/install-os/install-debian.md)!
+
+---
 
 ## My First Real Git Project
 

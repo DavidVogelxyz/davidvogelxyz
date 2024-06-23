@@ -6,7 +6,13 @@ tags: ['home-lab','bitcoin']
 
 {{< context >}}
 
-## Running my first home lab project
+## Introduction
+
+This article describes an outdated way to build a Bitcoin node. For more information on how I would set up a Bitcoin node today, check out [my guide on creating a Bitcoin node](https://github.com/DavidVogelxyz/library/blob/master/servers/bitcoin-node-on-debian.md), found on my GitHub.
+
+---
+
+## My First Home Server
 
 My first home lab project was a Bitcoin node.
 

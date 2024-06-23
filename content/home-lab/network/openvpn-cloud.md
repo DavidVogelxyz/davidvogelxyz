@@ -6,7 +6,15 @@ tags: ['home-lab','network']
 
 {{< context >}}
 
-## Advantages to using other people's computers
+![OpenVPN banner](/images/openvpn-banner.png)
+
+## Introduction
+
+For more information on how I would set up a VPN server today, check out [my guide on creating a VPN server](https://github.com/DavidVogelxyz/library/blob/master/servers/openvpn-server-on-debian.md), found on my GitHub.
+
+---
+
+## The Advantages of Using Another Person's Computer
 
 At the end of 2022, I revisited VPNs. My Raspberry Pi VPN was doing a great job with allowing me remote access to my home network, but my public IP was always my own. Why did I want a different IP? So I could give my phone a VPN connection when using the internet, to reduce the amount of data I leak, and to try and control what does leak. That way, web apps, like social media apps, would believe I live in a different part of the US. I would get reminders to vote for states I didn't live in. It felt good to push back a bit against all the unrequested, unwanted, permissionless corporate data collection.
 

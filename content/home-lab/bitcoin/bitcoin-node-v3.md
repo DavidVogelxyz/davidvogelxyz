@@ -8,7 +8,13 @@ tags: ['home-lab','bitcoin']
 
 ![Arch banner](/images/arch-banner.png)
 
-## Leveling up my Bitcoin node even further
+## Introduction
+
+This article describes an outdated way to build a Bitcoin node. For more information on how I would set up a Bitcoin node today, check out [my guide on creating a Bitcoin node](https://github.com/DavidVogelxyz/library/blob/master/servers/bitcoin-node-on-debian.md), found on my GitHub.
+
+---
+
+## Leveling Up My Bitcoin Node Even Further
 
 By the end of 2022, I had been running the [Bitcoin Node Version 2.1](/home-lab/bitcoin/bitcoin-node-v2#the-build) for about a year. It had been running incredibly robustly since I brought it online, and especially after upgrading it to Ubuntu 22.04 LTS in May 2022. But, it also gave off a sense of staleness. I had thought about testing out some potential upgrades, and the end of the year provided the time. And, it was the perfect time, because it was just about the **two year anniversary** since I started running Ubuntu Linux servers.
 
